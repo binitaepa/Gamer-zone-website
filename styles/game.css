@@ -195,21 +195,17 @@ margin-right: 100px;
     width: 426px;
     line-height: 60px; /* 125% */
 }
-
-.play-game-img .play-game-img1{
+.play-game-img{
     height: 90%;
     margin-left: 90px;
 }
-
- .play-game-img img{
-    
-    
-   
-    width: 340px;
-    padding: 40px;
-    
-    position: relative;
-    bottom: 100px;
+.play-game-img2{
+    position:relative;
+    bottom: 200px;
+ left: 500px;
+ 
+ border-radius: 8px;
+border: 4px solid #FFF;
 }
 .play-game-text p{
     color: #534C64;
