@@ -195,6 +195,22 @@ margin-right: 100px;
     width: 426px;
     line-height: 60px; /* 125% */
 }
+
+.play-game-img .play-game-img1{
+    height: 90%;
+    margin-left: 90px;
+}
+
+ .play-game-img img{
+    
+    
+   
+    width: 340px;
+    padding: 40px;
+    
+    position: relative;
+    bottom: 100px;
+}
 .play-game-text p{
     color: #534C64;
 
