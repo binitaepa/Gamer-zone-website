@@ -178,6 +178,12 @@ font-size: 18px;
     justify-content: center;
     gap: 8px;
 }
+.card-container .card:hover{
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.3;
+    
+}
 .card img{
     width: 20rem;
     height:25rem;
