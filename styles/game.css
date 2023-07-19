@@ -4,7 +4,7 @@
 
 
 *{
-    box-sizing: border-box;
+    
     font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
@@ -53,11 +53,11 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .nav-items-container{
-
+    margin-right: 0;
     width: 50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:end;
     
 }
 .nav-items-container a{
@@ -164,22 +164,138 @@ background-clip: text;
     /* height: 100%; */
     object-fit: cover;
 }
+.funny{
+    margin-top: 600px;
+    text-align: center;
+}
+.funny p{
+    font-family: Work Sans;
+font-size: 18px;
+}
+.card-container{
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    gap: 8px;
+}
+.card img{
+    width: 20rem;
+    height:25rem;
+}
+
+.play-game{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.play-game-text{
+margin-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 426px;
+    line-height: 60px; /* 125% */
+}
+.play-game-text p{
+    color: #534C64;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.button-9{
+    border: 1px solid;
+  
+    list-style: none;
+    padding:  20px;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #FFF;
+    
+    
+    
+}
+.button-9:hover{
+    cursor: pointer;
+    color:#FF42A5;
+}
+.button-img{
+    
+    padding:  20px;
+    
+    
+}
+.button-9-order{
+    
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    color: #FFF
+    
+}
+footer{
+  
+background: #0B0223;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 
 
+
+}
+.game{
+    display: flex;
+
+justify-content: center;
+    
+}
+.ul-list{
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    list-style: none;
+     color: #FFF;
+    gap: 20px;}
+    .ul-list3{
+        justify-content: center;
+        display: flex;
+        list-style: none;
+         color: #FFF;
+         font-size: 0.5rem;
+        gap: 20px;
+
+    }
+    .logo{
+        
+        display: flex;
+        gap: 20px;
+        width: 40px;
+height: 40px;
+
+    }
 
 /* for mobile */
 @media screen and (max-width: 576px) {
 
     .nav {
       flex-direction: column;
+      width:500px;
+   
+      
     }
     .nav-container{
 
       
         flex-direction: column;
+        width:100%;
         
         
     }
+    
 
     .nav-items-container{
 
@@ -195,6 +311,27 @@ background-clip: text;
     .nav-items-container .follow-us-btn{
         width: 100%;
         margin-bottom: 10px;
+    }
+    .banner-container, 
+    .banner-text,
+    .icons-container,
+    .banner-img,
+    .funny,
+    .card-container
+    {
+        margin-top: 170px;
+        flex-direction: column;
+        width:100%;
+    }
+
+    .funny,
+    .card-container,
+    .funny h2,
+    .funny p
+    {
+gap:20px;
+        flex-direction: column;
+        width: 100%;
     }
 }
 /* for tablet */
@@ -223,6 +360,7 @@ background-clip: text;
       }
   
       .nav-items-container .follow-us-btn{
+        
           width: 100%;
           margin-bottom: 10px;
       }
